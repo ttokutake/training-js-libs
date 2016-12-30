@@ -19,3 +19,8 @@ $ npm run try src/index.js
 $ npm install --save-dev <TRIED_LIB>
 $ npm run try <JS_FILE>
 ```
+4. try REPL.
+```bash
+$ npm run try
+> 1 + 1
+```
