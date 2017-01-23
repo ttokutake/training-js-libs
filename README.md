@@ -11,7 +11,7 @@ To try various JS libs with ES6.
 2. Prepare the environment. You are recommended to use [asdf](https://github.com/asdf-vm/asdf) for installing [node.js](https://nodejs.org/en/).
 ```bash
 $ cd try
-$ npm install
+$ npm install # or "yarn install"
 $ npm run try src/index.js
 ```
 3. Install libs which you want to try, and create new JS file or fix "src/\*.js" for trying them.

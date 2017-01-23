@@ -11,19 +11,19 @@
   "author": "ttokutake",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-plugin-transform-object-rest-spread": "^6.20.2",
-    "babel-preset-es2015": "^6.18.0",
-    "bluebird": "^3.4.7",
+    "babel-cli": "^6.22.2",
+    "babel-plugin-transform-object-rest-spread": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "bluebird": "^#.#.#",
     "humps": "^2.0.0",
     "icepick": "^1.3.0",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.3",
+    "lodash": "^4.17.4",
     "qs": "^6.3.0",
-    "ramda": "^0.22.1",
+    "ramda": "^0.23.0",
     "redux": "^3.6.0",
     "string": "^3.3.3",
-    "superagent": "^3.3.1",
+    "superagent": "^#.#.#",
     "superagent-bluebird-promise": "^4.1.0"
   }
 }
