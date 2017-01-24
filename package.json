@@ -17,6 +17,7 @@
     "bluebird": "^#.#.#",
     "humps": "^2.0.0",
     "icepick": "^1.3.0",
+    "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
     "qs": "^6.3.0",
@@ -26,5 +27,6 @@
     "superagent": "^#.#.#",
     "superagent-bluebird-promise": "^4.1.0"
   },
-  "repository": "git@github.com:ttokutake/try.git"
+  "repository": "git@github.com:ttokutake/try.git",
+  "dependencies": {}
 }
