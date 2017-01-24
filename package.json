@@ -25,5 +25,6 @@
     "string": "^3.3.3",
     "superagent": "^#.#.#",
     "superagent-bluebird-promise": "^4.1.0"
-  }
+  },
+  "repository": "git@github.com:ttokutake/try.git"
 }
