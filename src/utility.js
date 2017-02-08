@@ -13,3 +13,7 @@ console.log(humps.decamelize('OneTwoThree'));
 console.log('### string ###');
 import S from 'string';
 console.log(S('<p>hello, world!</p>').between('<p>', '</p>').s);
+
+console.log('### moment ###');
+import moment from 'moment';
+console.log(moment().format());
