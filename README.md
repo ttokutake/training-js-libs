@@ -1,7 +1,7 @@
-# try
+# training-js-libs
 =============
 
-## What is *try*?
+## What is this?
 
 To try various JS libs with ES6.
 
@@ -10,7 +10,7 @@ To try various JS libs with ES6.
 1. Clone this repository.
 2. Prepare the environment. You are recommended to use [asdf](https://github.com/asdf-vm/asdf) for installing [node.js](https://nodejs.org/en/).
 ```bash
-$ cd try
+$ cd training-js-libs
 $ npm install # or "yarn install"
 $ npm run try src/index.js
 ```
