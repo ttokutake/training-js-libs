@@ -9,7 +9,7 @@ console.log(lazy_memoized.toArray());
 console.log(lazy_memoized.toArray());
 
 console.log('### Ramda ###');
-import R from 'Ramda';
+import R from 'ramda';
 const flatMapped = R.chain(n => [n, n])(R.range(1, 10));
 console.log(flatMapped);
 
