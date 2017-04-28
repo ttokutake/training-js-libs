@@ -1,4 +1,5 @@
 import es6        from './es6';
+import type       from './type';
 import string     from './string';
 import collection from './collection';
 import time       from './time';
