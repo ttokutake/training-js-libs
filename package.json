@@ -11,24 +11,23 @@
   },
   "author": "ttokutake",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.22.2",
-    "babel-preset-es2015": "^6.22.0",
+  "devDependencies": {},
+  "repository": "git@github.com:ttokutake/try.git",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "escape-string-regexp": "^1.0.5",
     "faker": "^4.1.0",
     "humps": "^2.0.0",
     "immutable": "^3.8.1",
     "isomorphic-fetch": "^2.2.1",
     "lazy.js": "^0.5.0",
     "mathjs": "^3.12.1",
-    "moment": "^2.17.1",
-    "numeral": "^2.0.4",
-    "qs": "^6.3.0",
+    "moment": "^2.18.1",
+    "numeral": "^2.0.6",
+    "qs": "^6.4.0",
     "ramda": "^0.23.0",
     "redux": "^3.6.0",
     "string": "^3.3.3"
-  },
-  "repository": "git@github.com:ttokutake/try.git",
-  "dependencies": {
-    "escape-string-regexp": "^1.0.5"
   }
 }
