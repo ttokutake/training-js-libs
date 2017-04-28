@@ -10,15 +10,3 @@ const result = fetch(url)
     console.log('fetch:', body.readable);
   });
 console.log('fetch:', result);
-
-console.log('### Promise & SuperAgent ###');
-import Promise from 'bluebird';
-import req     from 'superagent-bluebird-promise';
-const urls = ['https://www.example.com/', 'https://www.example.com/'];
-const results = Promise
-  .map(urls, url => {
-    console.log('superagent:', url);
-    return req.get(url).then(res => console.log('superagent:', res.status));
-  })
-  .then(() => {console.log('superagent:', 'done')});
-console.log('superagent:', results);
