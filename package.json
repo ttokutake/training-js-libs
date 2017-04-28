@@ -25,5 +25,7 @@
     "string": "^3.3.3"
   },
   "repository": "git@github.com:ttokutake/try.git",
-  "dependencies": {}
+  "dependencies": {
+    "escape-string-regexp": "^1.0.5"
+  }
 }
