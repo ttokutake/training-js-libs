@@ -12,7 +12,8 @@ To try various JS libs with ES6.
 ```bash
 $ cd training-js-libs
 $ npm install # or "yarn install"
-$ npm run try src/index.js
+$ npm run try src/es6.js
+$ npm run try-all
 ```
 3. Install libs which you want to try, and create new JS file or fix "src/\*.js" for trying them.
 ```bash

@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "try": "babel-node",
+    "try-all": "babel-node src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ttokutake",

@@ -1,3 +1,5 @@
+console.log('### Redux ###');
+
 // actions
 const DO_SOMETHING1 = 'DO_SOMETHING1';
 const DO_SOMETHING2 = 'DO_SOMETHING2';
