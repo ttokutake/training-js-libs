@@ -19,6 +19,10 @@ const new_obj = i.updateIn(obj, ['b', 'd', 1], v => v * v);
 console.log(obj);
 console.log(new_obj);
 
+console.log('### Lazy ###');
+import Lazy from 'lazy.js';
+console.log(Lazy({a: 1, b: 2}).assign({c: 3}));
+
 console.log('### Ramda ###');
 import R from 'Ramda';
 const flatMapped = R.chain(n => [n, n])(R.range(1, 10));
