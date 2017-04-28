@@ -1,5 +1,5 @@
 console.log('### import and export ###');
-import {ONE, TWO} from './constant';
+import {ONE, TWO} from './es6_export';
 console.log(ONE, TWO);
 
 console.log('### Rest Parameters ###');
