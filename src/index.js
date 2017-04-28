@@ -1,11 +1,11 @@
-import es6        from './es6';
-import validation from './validation';
-import string     from './string';
-import collection from './collection';
-import time       from './time';
-import utility    from './utility';
-import redux      from './redux';
-import math       from './math';
-import dummy      from './dummy';
+import './es6';
+import './validation';
+import './string';
+import './collection';
+import './time';
+import './utility';
+import './redux';
+import './math';
+import './dummy';
 
-import http from './http';
+import './http';

@@ -1,4 +1,6 @@
-console.log('### Redux ###');
+console.log('+-------+');
+console.log('| Redux |');
+console.log('+-------+');
 
 // actions
 const DO_SOMETHING1 = 'DO_SOMETHING1';
@@ -61,3 +63,5 @@ store.dispatch(doSomething2(1));
 store.dispatch(doSomething2(2));
 
 unsubscribe();
+
+console.log();

@@ -1,4 +1,8 @@
-console.log('### isomorphic-fetch ###');
+console.log('+-------------+');
+console.log('| http(async) |');
+console.log('+-------------+');
+
+console.log('/* isomorphic-fetch */');
 import 'isomorphic-fetch';
 const url = 'https://www.example.com/';
 const result = fetch(url)
@@ -8,5 +12,6 @@ const result = fetch(url)
   })
   .then(body => {
     console.log('fetch:', body.readable);
+    console.log();
   });
 console.log('fetch:', result);
