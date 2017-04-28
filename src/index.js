@@ -5,5 +5,6 @@ import time       from './time';
 import utility    from './utility';
 import redux      from './redux';
 import math       from './math';
+import dummy      from './dummy';
 
 import http from './http';
