@@ -1022,6 +1022,10 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+jStat@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/jStat/-/jStat-1.6.0.tgz#92969d3eb3b68901067f395675d3a35131f02dbe"
+
 jodid25519@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz#06d4912255093419477d425633606e0e90782967"
@@ -1294,6 +1298,12 @@ private@^0.1.6:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.7.tgz#68ce5e8a1ef0a23bb570cc28537b5332aba63ef1"
 
+prob.js@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/prob.js/-/prob.js-1.0.6.tgz#eb9c4d9486f94214050967aabfb5fd92cecc0fff"
+  dependencies:
+    random-js "1.0.x"
+
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
@@ -1309,6 +1319,10 @@ qs@^6.4.0, qs@~6.4.0:
 ramda@^0.23.0:
   version "0.23.0"
   resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.23.0.tgz#ccd13fff73497a93974e3e86327bfd87bd6e8e2b"
+
+random-js@1.0.x:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/random-js/-/random-js-1.0.8.tgz#968fd689a6f25d6c0aac766283de2f688c9c190a"
 
 randomatic@^1.1.3:
   version "1.1.6"
