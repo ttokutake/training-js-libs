@@ -16,3 +16,13 @@ import numeral from 'numeral';
 console.log(numeral(1).format('0o'));
 
 console.log();
+
+console.log('/* clone */');
+import clone from 'clone';
+const x = new Date();
+const y = clone(x);
+x.setTime(946652400000);
+console.log(x);
+console.log(y);
+
+console.log();
