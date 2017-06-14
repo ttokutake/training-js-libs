@@ -14,7 +14,7 @@ $ npm install -g yarn
 $ cd training-js-libs
 $ yarn
 $ yarn try src/es6.js
-$ yarn try-all
+$ yarn try:all
 ```
 3. Install libs which you want to try, and create new JS file or fix "src/\*.js" for trying them.
 ```bash

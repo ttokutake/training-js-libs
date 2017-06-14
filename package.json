@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "try": "babel-node",
-    "try-all": "babel-node src",
+    "try:all": "babel-node src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ttokutake",
@@ -33,6 +33,7 @@
     "qs": "^6.4.0",
     "ramda": "^0.23.0",
     "redux": "^3.6.0",
-    "string": "^3.3.3"
+    "string": "^3.3.3",
+    "urijs": "^1.18.10"
   }
 }

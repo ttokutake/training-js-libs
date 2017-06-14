@@ -2,6 +2,12 @@ console.log('+---------+');
 console.log('| utility |');
 console.log('+---------+');
 
+console.log('/* URI.js */');
+import URI from 'urijs';
+console.log(new URI('http://hogehoge.com/').protocol());
+
+console.log();
+
 console.log('/* qs */');
 import qs from 'qs';
 const encoded = qs.stringify({a: 1, b: 'one'});
